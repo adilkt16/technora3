@@ -20,7 +20,7 @@ div.main-image img {
 
 //COMMON
 a.register {
-    border: 1px solid #000;
+    border: 1px solid #fff;
     padding: 10px 30px;
     border-radius: 50px;
     margin-top: 30px;
@@ -84,7 +84,7 @@ header {
                 }
 
                 &:hover {
-                    border-bottom: 2px solid #000;
+                    border-bottom: 2px solid #fff;
                     color: black;
                     transition: .3s;
                 }
@@ -325,11 +325,11 @@ header {
                 margin: 0 20px 20px 0;
 
                 div.group-section {
-                    border: 1px solid #ccc;
+                    // border: 1px solid #ccc;
                     border-radius: 20px;
                     padding: 20px;
                     text-align: center;
-                    background-color: #F56476;
+                    background-color: #9c0a0a;
 
                     div.event-image {
                         img {
@@ -557,7 +557,7 @@ p.developed {
 
     a {
         &:hover {
-            color: #000;
+            color: #fff;
             opacity: 1;
         }
     }

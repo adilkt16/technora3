@@ -10,7 +10,7 @@
   }
 }
 a.register {
-  border: 1px solid #000;
+  border: 1px solid #fff;
   padding: 10px 30px;
   border-radius: 50px;
   margin-top: 30px;
@@ -57,7 +57,7 @@ header section.all-in-header div.all-other a.nav:last-child {
   margin-right: 0;
 }
 header section.all-in-header div.all-other a.nav:hover {
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #fff;
   color: black;
   transition: 0.3s;
 }
@@ -213,11 +213,10 @@ header section.all-in-header div.all-other a.nav:hover {
   margin: 0 20px 20px 0;
 }
 #events section.event-section ul li div.group-section {
-  border: 1px solid #ccc;
   border-radius: 20px;
   padding: 20px;
   text-align: center;
-  background-color: #F56476;
+  background-color: #9c0a0a;
 }
 #events section.event-section ul li div.group-section div.event-image img {
   border-radius: 10px;
@@ -361,7 +360,7 @@ p.developed {
   padding: 10px 0;
 }
 p.developed a:hover {
-  color: #000;
+  color: #fff;
   opacity: 1;
 }
 
@@ -1009,13 +1008,10 @@ ul {
 }
 
 body {
-  background-image: url("../images/grid.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
   min-height: 100vh;
+  background-color: #030f0f;
   font-family: "Poppins", sans-serif;
-  color: #000;
+  color: #fff;
 }
 
 img {
@@ -1025,7 +1021,7 @@ img {
 }
 
 a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
   display: inline-block;
 }/*# sourceMappingURL=style.css.map */

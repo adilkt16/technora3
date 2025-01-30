@@ -27,14 +27,15 @@ ul {
 
 body {
 	// background: linear-gradient(90deg, rgba(5, 1, 0, 1) 0%, rgba(248, 198, 198, 1) 51%, rgba(5, 1, 0, 1) 100%);
-	background-image: url('../images/grid.png');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
+	// background-image: url('../images/grid.png');
+	// background-repeat: no-repeat;
+	// background-attachment: fixed;
+	// background-size: cover;
 	min-height: 100vh;
+	background-color: #030f0f;
 	// font-family: 'Roboto', sans-serif;
 	font-family: 'Poppins', sans-serif;
-	color: #000;
+	color: #fff;
 	// color: #D4201F;
 }
 
@@ -45,7 +46,7 @@ img {
 }
 
 a {
-	color: #000;
+	color: #fff;
 	// color: #D4201F;
 	text-decoration: none;
 	display: inline-block;
