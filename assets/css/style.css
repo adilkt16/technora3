@@ -297,6 +297,34 @@ header section.all-in-header div.all-other a.nav:hover {
   font-size: 18px;
 }
 
+#sponsors {
+  margin-bottom: 50px;
+}
+#sponsors h2 {
+  font-weight: 900;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#sponsors section.all-sponsors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sponsors section.all-sponsors a {
+  margin-right: 30px;
+}
+#sponsors section.all-sponsors a div {
+  width: 280px;
+  height: 180px;
+}
+#sponsors section.all-sponsors a div img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 footer #contact {
   padding: 0 0 20px 0;
 }
