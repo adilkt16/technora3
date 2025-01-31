@@ -326,10 +326,16 @@ header {
 
                 div.group-section {
                     // border: 1px solid #ccc;
-                    border-radius: 20px;
                     padding: 20px;
                     text-align: center;
-                    background-color: #9c0a0a;
+                    // background-color: #9c0a0a;
+                    background: linear-gradient(135deg, rgba(225, 225, 225, 0.1));
+                    backdrop-filter: blur(10px);
+                    -webkit-backdrop-filter: blur(10px);
+                    border-radius: 20px;
+                    border: 1px solid rgba(225, 225, 225, 0.18);
+                    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
 
                     div.event-image {
                         img {
@@ -354,7 +360,9 @@ header {
                     a.register {
                         margin-top: 0;
                         color: #fff;
-                        border-color: white;
+                        // border-color: white;
+                        border: 1px solid rgba(225, 225, 225, 0.18);
+
                     }
                 }
             }

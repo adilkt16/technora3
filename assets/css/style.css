@@ -213,10 +213,14 @@ header section.all-in-header div.all-other a.nav:hover {
   margin: 0 20px 20px 0;
 }
 #events section.event-section ul li div.group-section {
-  border-radius: 20px;
   padding: 20px;
   text-align: center;
-  background-color: #9c0a0a;
+  background: linear-gradient(135deg, rgba(225, 225, 225, 0.1));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(225, 225, 225, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 #events section.event-section ul li div.group-section div.event-image img {
   border-radius: 10px;
@@ -235,7 +239,7 @@ header section.all-in-header div.all-other a.nav:hover {
 #events section.event-section ul li div.group-section a.register {
   margin-top: 0;
   color: #fff;
-  border-color: white;
+  border: 1px solid rgba(225, 225, 225, 0.18);
 }
 #events section.event-section a.more-button {
   text-align: center;
